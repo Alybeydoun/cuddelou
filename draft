@@ -1,0 +1,30 @@
+<!-- <section class="categories">
+      <div class="category">
+        <img src="images/1.png" alt="Newborn" />
+        <p>NEWBORN (0-3 MONTHS)</p>
+        <div class="hover-info">
+          <a href="#" class="hover-link">Sets</a>
+          <a href="#" class="hover-link">Overall</a>
+          <a href="#" class="hover-link">Dress</a>
+        </div>
+      </div>
+
+      <div class="category">
+        <img src="images/2.png" alt="Girl Baby" />
+        <p>GIRL BABY</p>
+        <div class="hover-info">
+          <a href="#" class="hover-link">Sets</a>
+          <a href="#" class="hover-link">Overall</a>
+          <a href="#" class="hover-link">Dress</a>
+        </div>
+      </div>
+
+      <div class="category">
+        <img src="images/3.png" alt="Boy Baby" />
+        <p>BOY BABY</p>
+        <div class="hover-info">
+          <a href="#" class="hover-link">Sets</a>
+          <a href="#" class="hover-link">Overall</a>
+        </div>
+      </div>
+    </section> -->
