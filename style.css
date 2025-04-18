@@ -27,10 +27,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  /* background: linear-gradient(to right, #222, #444); */
   background: var(--color2);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  color: #fff;
+  color: var(--color4);
 }
 
 /* Logo styling */
@@ -98,7 +97,7 @@ body {
 }
 
 /* Search bar */
-.search-container {
+/* .search-container {
   display: flex;
   align-items: center;
   background-color: var(--color4);
@@ -129,6 +128,54 @@ body {
 
 .search-container button:hover {
   background: var(--color2);
+} */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 5px 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+  outline: none;
+}
+
+.search-container:hover {
+  border-color: var(--color1);
+  box-shadow: 0 4px 20px var(--color1);
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.search-container button {
+  border: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-container button:hover {
+  background: #0056b3;
+}
+
+.search-container i {
+  font-size: 16px;
 }
 
 /* Cart icon */
